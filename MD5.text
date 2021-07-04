@@ -1,0 +1,14 @@
+PROGRAM:
+
+
+import hashlib
+
+ANY_STRING = input("Enter any String : ")
+Result = hashlib.md5(ANY_STRING.encode("utf-8")).hexdigest()
+print(Result)
+
+
+OUTPUT:
+
+Enter any String : Sourav Sarma
+a602419144be7829982464900b1ac28e
